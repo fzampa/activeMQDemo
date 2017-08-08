@@ -8,7 +8,7 @@ In order to properly run this application you need to have downloaded [ActiveMQ]
 
 * Extract ActiveMQ file
 * Run `./activemq start` in bin folder.
-* Check your installation running on [http://localhost:8161/admin/]()
+* Check your installation running on [http://localhost:8161/admin/](http://localhost:8161/admin/)
 
 ### Running the application
 
@@ -25,5 +25,5 @@ Having Maven installed, just run `mvn spring-boot:run`
 
 ## Writing message on queue
 
-* There is a web service running on Spring Boot application that allows you to send a message to an ActiveMQ queue just by accessing this link: [http://localhost:8080/send?message=MESSAGE]()
+* There is a web service running on Spring Boot application that allows you to send a message to an ActiveMQ queue just by accessing this link: [http://localhost:8080/send?message=MESSAGE](http://localhost:8080/send?message=MESSAGE)
 * After making this GET call, refresh ActiveMQ administrators page to check there is another queue created, named "another_queue", which contains one message.
