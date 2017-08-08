@@ -8,7 +8,7 @@ In order to properly run this application you need to have downloaded [ActiveMQ]
 
 * Extract ActiveMQ file
 * Run `./activemq start` in bin folder.
-* Check your installation running on [http://localhost:8161/admin/](http://localhost:8161/admin/)
+* Check your installation running on [http://localhost:8161/admin/](http://localhost:8161/admin/). When prompted, the default user/pass pair for the installation is admin/admin.
 
 ### Running the application
 
