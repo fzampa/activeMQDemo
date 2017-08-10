@@ -10,6 +10,20 @@ In order to properly run this application you need to have downloaded [ActiveMQ]
 * Run `./activemq start` in bin folder.
 * Check your installation running on [http://localhost:8161/admin/](http://localhost:8161/admin/). When prompted, the default user/pass pair for the installation is admin/admin.
 
+### Configuring ActiveMQ
+
+Before running the application you need to replace the modified configuration files to make authentication and authorization works properly.
+
+Copy the following files, under the [./src/main/resources]() folder:
+
+* activemq.xml
+* credentials.properties
+* groups.properties
+* login.configuration
+* users.properties
+
+And then paste these files on /conf folder under activeMQ installation path. You must replace the existing ones.
+
 ### Running the application
 
 Having Maven installed, just run `mvn spring-boot:run`

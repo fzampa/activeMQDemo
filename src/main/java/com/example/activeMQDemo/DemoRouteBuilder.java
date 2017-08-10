@@ -16,6 +16,8 @@ public class DemoRouteBuilder extends RouteBuilder{
 	@Override
 	public void configure() throws Exception {
 		ActiveMQComponent component = ActiveMQComponent.activeMQComponent("tcp://localhost:61616");
+		component.setUserName("another");
+		component.setPassword("another");
 		context.addComponent("activemq", component);
 
 		from("activemq:queue:test_queue").log("Received message [${body}]");
