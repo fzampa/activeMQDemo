@@ -22,7 +22,7 @@ Copy the following files, under the [./src/main/resources](https://github.com/fz
 * login.configuration
 * users.properties
 
-And then paste these files on /conf folder under activeMQ installation path. You must replace the existing ones.
+And then paste these files on /conf folder under your activeMQ installation path. You must replace the existing ones.
 
 ### Running the application
 
