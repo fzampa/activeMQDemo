@@ -14,7 +14,7 @@ In order to properly run this application you need to have downloaded [ActiveMQ]
 
 Before running the application you need to replace the modified configuration files to make authentication and authorization works properly.
 
-Copy the following files, under the [./src/main/resources]() folder:
+Copy the following files, under the [./src/main/resources](https://github.com/fzampa/activeMQDemo/tree/master/src/main/resources) folder:
 
 * activemq.xml
 * credentials.properties
